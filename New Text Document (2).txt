@@ -1,0 +1,54 @@
+Apartment 
+GETALL
+http://studenthostelwebsite.runasp.net/api/Apartment/GetAll
+GET By ID 
+http://studenthostelwebsite.runasp.net/api/Apartment/{id}
+PUT "Update"
+http://studenthostelwebsite.runasp.net/api/Apartment/{id}
+DELETE 
+http://studenthostelwebsite.runasp.net/api/Apartment/{id}
+POST 
+http://studenthostelwebsite.runasp.net/api/Apartment
+
+-----------------------------------------
+
+COMMENT 
+POST 
+http://studenthostelwebsite.runasp.net/api/Comment
+DELETE
+http://studenthostelwebsite.runasp.net/api/Comment/{id}
+
+----------------------------------------------
+OWNER 
+GET ALL 
+http://studenthostelwebsite.runasp.net/api/Owner/GetAll
+GET ID 
+http://studenthostelwebsite.runasp.net/api/Owner/{id}
+PUT BY ID 
+http://studenthostelwebsite.runasp.net/api/Owner/{id}
+DELETE BY ID 
+http://studenthostelwebsite.runasp.net/api/Owner/{id}
+POST 
+http://studenthostelwebsite.runasp.net/api/Owner
+
+-----------------------------------------
+STUDENT 
+GETALL 
+http://studenthostelwebsite.runasp.net/api/Student/GetAll
+GET BY ID 
+http://studenthostelwebsite.runasp.net/api/Student/{id}
+PUT BY ID 
+http://studenthostelwebsite.runasp.net/api/Student/{id}
+DELETE BY ID 
+http://studenthostelwebsite.runasp.net/api/Student/{id}
+POST 
+http://studenthostelwebsite.runasp.net/api/Student
+
+
+register
+POST
+http://studenthostelwebsite.runasp.net/api/auth/register
+
+login 
+POST
+http://studenthostelwebsite.runasp.net/api/auth/login

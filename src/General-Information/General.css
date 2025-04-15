@@ -1,0 +1,114 @@
+.general-information{
+    margin-top:3%;
+    padding-top: 1%;
+    margin-bottom:4% !important;
+    background-color: white;
+    width: 70%; /*70%*/  
+    margin-left: 0.9%;  
+    box-sizing: border-box;
+}
+.general-information h5{
+    font-weight: bold;
+}
+#Information-All{
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+}
+.information-left{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;    
+    font-weight: bold;
+}
+.information-right{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.information h6{
+    padding-bottom: 2.5rem;
+    font-weight: bold;
+}
+.answer h6{
+    padding-bottom: 2.5rem;
+    opacity:70%;
+    font-weight: bold;
+}
+.answer2 h6{
+    padding-bottom: 2.5rem;
+    opacity:70%;
+    font-weight: bold;
+}
+.Description{
+    width: 70%; /*70%*/  
+    margin-left: 0.9%;  
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    gap:6%;
+}
+.description-text2{
+    opacity: 70%;
+}
+@media (max-width:990px) {
+    .information h6{
+       font-size: 0.8rem;
+    }
+    .answer h6{
+       font-size: 0.8rem;
+    }
+    .answer2 h6{
+       font-size: 0.8rem;
+    }
+    .description-text1{
+       font-size: 0.8rem;
+    }
+    .description-text2{
+       font-size: 0.8rem;
+    }
+}
+@media (max-width:1166px) {
+    .Description {
+    width: 85%;
+    }
+}
+@media (max-width:788px) {
+    .Description {
+    width: 90%;
+    }
+}
+
+@media (max-width:767px) {
+.general-information{
+    width: 100%;
+}
+.Description {
+    width: 80%;
+    }
+}
+@media (max-width:575px) {
+    #Information-All{
+        display: block;
+        width: 100%;
+    }
+    .information-left{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;    
+    }
+    .information-right{
+        display: flex;
+        width: 94%;
+        justify-content: space-around;
+    }
+    .general-information h5{
+       font-size: 1rem;
+    }
+    .Description {
+        width: 100%;
+        justify-content: center;
+        }
+    
+}

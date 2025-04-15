@@ -1,0 +1,50 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.card-profile{
+    max-width: 22%;
+    overflow: hidden;
+}
+.card-profile img{
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3 ease;
+}
+.card img:hover{
+  transform: translateY(0.5px);
+  opacity: 96%;
+}
+.card-profile .title{
+    flex-wrap: wrap;
+}
+.linkesProfile a{
+    margin: 15px;
+}
+@media (max-width:1470px) {
+    .card-profile{
+        max-width: 28%;
+    }
+}
+@media (max-width:1160PX) {
+    .card-profile{
+        max-width: 32%;
+    }
+}
+@media (max-width:900px) {
+    .card-profile{
+        max-width: 48%;
+    }
+}
+@media (max-width:678px) {
+    .card-profile{
+        max-width: 100%;
+    }
+    .card-profile img{
+    height: 650px;
+    background-position:center !important;
+    background-size: cover;
+    }
+}
