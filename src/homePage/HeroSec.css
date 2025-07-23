@@ -1,0 +1,31 @@
+.text-home {
+  z-index: 1 !important;
+}
+.search-home::placeholder {
+  text-align: center;
+}
+.search-home:focus {
+  outline-color: #60a5fa;
+}
+.image-home {
+  max-width: 100%;
+  object-fit: cover;
+}
+/* .paragraph{
+  width:75%;
+  max-width: 90%;
+} */
+.last-added-card {
+  transition: 0.5s ease-in-out;
+}
+.last-added-card:hover {
+  transform: translateY(-10px);
+}
+
+.featurd-card {
+  transition: 0.5s ease;
+}
+.featurd-card:hover {
+  border-radius: 0;
+  transform: translateY(-10px);
+}

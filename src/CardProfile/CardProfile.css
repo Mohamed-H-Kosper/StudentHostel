@@ -1,0 +1,49 @@
+.card-title{
+    font-size: 25px;
+    padding: 10px;
+}
+.card-text{
+    font-size: 22px;
+    padding: 10px;
+}
+.card-text2{
+    font-size: 21px;
+    line-height: 3rem;
+    padding: 10px;
+}
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    margin-left: -3%;
+}
+.card{
+    height: 20% !important;
+}
+.img-fluid:hover{
+opacity: 0.9;
+}
+.linkesProfile a{
+    margin: 20px;
+}
+
+@media (max-width:991px) {
+    .img-fluid{
+    object-fit: cover;
+    }
+}
+@media (max-width:900px) {
+    .card-profile{
+                max-width: 32%;
+
+    }
+}
+@media (max-width:678px) {
+    .card-profile{
+        max-width: 100%;
+    }
+    .card-profile img{
+    height: 650px;
+    background-position:center !important;
+    background-size: cover;
+    }
+}

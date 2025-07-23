@@ -1,0 +1,53 @@
+.About{
+    padding-bottom: 5%;
+}
+.about-L{
+    padding-right: 2%;
+}
+.about-R{
+    padding-left: 2%;
+}
+.address{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1px rgb(43, 87, 219);
+    color: transparent;
+}
+.text-about{
+    line-height: 2rem !important;
+}
+.about-img {
+    max-width:40% ;
+    height:auto ;
+    object-fit: cover;
+}
+.text-image{
+    z-index: 100;
+}
+.title{
+    opacity: 80%;
+}
+.photo-abdo{
+    max-width: 100%;
+    width: 90%;
+    padding-left: 13%;
+}
+.photos{
+    object-fit: cover;
+}
+@media (max-width:1050px){
+    .newAbout-img {
+        display: block !important;
+        max-width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .about-img {
+        display: none;
+}
+.about-L{
+    padding-right: 0%;
+}
+.about-R{
+    padding-right: 0%;
+}
+}
