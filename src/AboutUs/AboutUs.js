@@ -163,8 +163,8 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <CardProfile />
     </>
   );
 }
 export default AboutUs;
-

@@ -6,6 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { GoProjectSymlink } from "react-icons/go";
 import { FaHouseUser, FaEye, FaEyeSlash } from "react-icons/fa";
 import { GiStarMedal } from "react-icons/gi";
+import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 

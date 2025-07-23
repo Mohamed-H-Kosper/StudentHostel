@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Grid } from "react-loader-spinner";
-import { MdFavoriteBorder, MdFavorite } from "react-icons/md"; // استيراد الأيقونتين
+import { MdFavoriteBorder, MdFavorite } from "react-icons/md";
 
 function Apartments() {
   const [allApartments, setAllApartments] = useState([]);
@@ -26,7 +26,7 @@ function Apartments() {
 
   useEffect(() => {
     axios
-      .get("/api/Apartment/GetAll")
+      .get(`/api/Apartment/GetAll`)
       .then((response) => {
         setAllApartments(response.data);
         setFilteredApartments(response.data);
@@ -102,7 +102,7 @@ function Apartments() {
     <>
       <NavFilter onFilter={handleFilter} />
       <div className="container-fluid apartment-container">
-        <div className="row" >
+        <div className="row">
           {filteredApartments.length === 0 ? (
             <div className="text-center w-100 mt-5">
               <h3 className="text-danger">❌ No results match your search.</h3>
@@ -119,12 +119,12 @@ function Apartments() {
                 >
                   <div data-aos="fade-up" className="card ">
                     {/* <div className=""> */}
-                      <img
-                        loading="lazy"
-                        src={`data:image/jpeg;base64,${apartment.apartment_Image}`}
-                        className="card-img-top"
-                        alt="NoImage"
-                      />
+                    <img
+                      loading="lazy"
+                      src={`data:image/jpeg;base64,${apartment.apartment_Image}`}
+                      className="card-img-top"
+                      alt="NoImage"
+                    />
                     {/* </div> */}
                     <div className="card-body relative">
                       {favorites.some(

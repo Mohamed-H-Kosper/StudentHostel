@@ -3,6 +3,7 @@ import "./logIn.css";
 import { Container } from "react-bootstrap";
 import logo from "../images/logoNavbar 1.png";
 import { Link, useNavigate } from "react-router-dom";
+import { FcGoogle } from "react-icons/fc";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Swal from "sweetalert2";
 import { useAuth } from "../AuthCheck";

@@ -112,7 +112,10 @@ const Header = () => {
             Shop
           </NavLink>
           {isOwner && !isAdmin ? (
-            <NavLink to="/advirtise" className="font-medium mr-4 links links-add">
+            <NavLink
+              to="/advirtise"
+              className="font-medium mr-4 links links-add"
+            >
               Add Apartment
             </NavLink>
           ) : isAdmin ? (

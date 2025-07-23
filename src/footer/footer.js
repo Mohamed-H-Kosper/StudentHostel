@@ -62,7 +62,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center mt-3">Copyright (c) Mohamed Hassan Kosper </p>
     </footer>
   );
 };

@@ -25,16 +25,17 @@ const FeaturedCard = () => {
   }, []);
   if (loading) {
     return (
-      <div className="text-center text-3xl font-semibold mt-2 mb-5">
+      <div className="text-center text-3xl font-semibold mt-2 mb-5 m-5 loading-home">
         <Grid
           visible={true}
           height="80"
           width="80"
-          color="#4fa94d"
+          color="#60a5fa"
           ariaLabel="grid-loading"
           radius="12.5"
           wrapperStyle={{}}
           wrapperClass="grid-wrapper"
+          className="loading-home"
         />
       </div>
     );

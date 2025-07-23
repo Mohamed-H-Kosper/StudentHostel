@@ -1,9 +1,6 @@
 .text-home {
   z-index: 1 !important;
 }
-.search-home{
-  font-size: 20px;
-}
 .search-home::placeholder {
   text-align: center;
 }
@@ -31,19 +28,4 @@
 .featurd-card:hover {
   border-radius: 0;
   transform: translateY(-10px);
-}
-.load{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hostel-text{
-  font-weight: bold;
-  text-shadow: 1px 2px 20px #60a5fa ;
-  color:#4d94eb;
-  opacity:80% !important;
-}
-.last{
-  color:#4d94eb;
-  font-weight: bold;
 }

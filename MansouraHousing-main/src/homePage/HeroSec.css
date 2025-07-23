@@ -23,3 +23,9 @@
   border-radius: 0;
   transform: translateY(-10px);
 }
+.loading-home{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: red !important;
+}
