@@ -20,9 +20,9 @@ function CardProfile() {
     </div>
     <div className="col-md-6">
       <div className="card-body" data-aos="zoom-in">
-        <h5 className="card-title text-primary">Mohamed Hassan Kosper</h5>
-        <p className="card-text text-secondary">Front-End [ React.js & Next js & javaScript & Bootstrap]</p>
-        <p className="card-text2 text-dark">  
+        <h5 className="profile-title text-primary">Mohamed Hassan Kosper</h5>
+        <p className="profile-text text-secondary">Front-End [ React.js & Next js & javaScript & Bootstrap]</p>
+        <p className="profile-text2 text-dark">  
          I'm a passionate Front-End developer with hands-on experience
                 building responsive and dynamic web interfaces using React.js,
                 Next.js, and modern JavaScript. I focus on writing clean,

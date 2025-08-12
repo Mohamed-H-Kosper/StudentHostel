@@ -1,12 +1,12 @@
-.card-title{
+.profile-title{
     font-size: 25px;
     padding: 10px;
 }
-.card-text{
+.profile-text{
     font-size: 22px;
     padding: 10px;
 }
-.card-text2{
+.profile-text2{
     font-size: 21px;
     line-height: 3rem;
     padding: 10px;
@@ -16,16 +16,12 @@
     height: 100%;
     margin-left: -3%;
 }
-.card{
-    height: 20% !important;
-}
 .img-fluid:hover{
 opacity: 0.9;
 }
 .linkesProfile a{
     margin: 20px;
 }
-
 @media (max-width:991px) {
     .img-fluid{
     object-fit: cover;

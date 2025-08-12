@@ -9,6 +9,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import CommentsSec from "./Comments";
+import photoProfile from "../images/photo-kosper.jpg";
+
 
 function InformationApartment() {
   const [newApartments, setNewApartments] = useState([]);
@@ -107,7 +109,7 @@ function InformationApartment() {
         <div data-aos="fade-left" data-aos-duration="3000" key={newOwner.id} className="call-owner col-lg-2 col-md-2">
           <img
             loading="lazy"
-            src={Owner}
+            src={photoProfile}
             alt="noPhoto"
             className="image-owner"
           />
