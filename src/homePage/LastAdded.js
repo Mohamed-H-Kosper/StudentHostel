@@ -36,9 +36,9 @@ const LastAdded = ({ filtersSearch }) => {
       </div>
     );
   }
-  if (!filtersSearch) {
-    return "No result in search ";
-  }
+  // if (!filtersSearch) {
+  //   return "No result in search ";
+  // }
   return (
     <div className="w-full mt-4">
       <div
