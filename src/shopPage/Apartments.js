@@ -26,7 +26,7 @@ function Apartments() {
 
   useEffect(() => {
     axios
-      .get(`/api/Apartment/GetAll`)
+      .get(`http://studenthostelwebsite.runasp.net/api/Apartment/GetAll`)
       .then((response) => {
         setAllApartments(response.data);
         setFilteredApartments(response.data);

@@ -11,7 +11,7 @@ const LastAdded = ({ filtersSearch }) => {
 
   useEffect(() => {
     axios
-      .get("/api/Apartment/GetAll")
+      .get("http://studenthostelwebsite.runasp.net/api/Apartment/GetAll") 
       .then((response) => {response.json()})
       .catch((error) => {
         console.error("Error fetching apartments:", error);
@@ -37,7 +37,7 @@ const LastAdded = ({ filtersSearch }) => {
     );
   }
   if (!filtersSearch) {
-    return "No result in search ";
+    return "";
   }
   return (
     <div className="w-full mt-4">

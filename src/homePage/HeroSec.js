@@ -9,7 +9,7 @@ const HeroSec = () => {
 
   useEffect(() => {
     axios
-      .get("/api/Apartment/GetAll")
+      .get("http://studenthostelwebsite.runasp.net/api/Apartment/GetAll")
       .then((response) => {
         setData(response.data);
         setFiltersSearch(response.data.slice(-4));
