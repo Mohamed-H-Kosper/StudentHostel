@@ -11,7 +11,7 @@ const LastAdded = ({ filtersSearch }) => {
 
   useEffect(() => {
     axios
-      .get("http://studenthostelwebsite.runasp.net/api/Apartment/GetAll") 
+      .get("/api/Apartment/GetAll") 
       .then((response) => {response.json()})
       .catch((error) => {
         console.error("Error fetching apartments:", error);
