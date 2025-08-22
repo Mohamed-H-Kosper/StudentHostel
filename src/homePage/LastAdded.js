@@ -12,7 +12,7 @@ const LastAdded = ({ filtersSearch }) => {
   useEffect(() => {
     axios
       .get("/api/Apartment/GetAll")
-      .then((response) => {})
+      .then((response) => {response.json()})
       .catch((error) => {
         console.error("Error fetching apartments:", error);
       })
@@ -36,9 +36,9 @@ const LastAdded = ({ filtersSearch }) => {
       </div>
     );
   }
-  // if (!filtersSearch) {
-  //   return "No result in search ";
-  // }
+  if (!filtersSearch) {
+    return "No result in search ";
+  }
   return (
     <div className="w-full mt-4">
       <div

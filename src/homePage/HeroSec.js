@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import heroImage from "../images/MainImage.png";
 import "./HeroSec.css";
-// import LastAdded from "./LastAdded";
+import LastAdded from "./LastAdded";
 import axios from "axios";
 const HeroSec = () => {
   const [data, setData] = useState([]);
@@ -63,7 +63,7 @@ const HeroSec = () => {
           />
         </div>
       </div>
-      {/* <LastAdded filtersSearch={filtersSearch} /> */}
+      <LastAdded filtersSearch={filtersSearch} />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSec from "./HeroSec";
-// import LastAdded from "./LastAdded";
+import LastAdded from "./LastAdded";
 import University from "./University";
 import Featuers from "./Featuers";
 import FaqSection from "./Asks";
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <HeroSec />
-      {/* <LastAdded /> */}
+      <LastAdded />
       <University />
       <Featuers />
       <FaqSection />
